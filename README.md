@@ -1,5 +1,5 @@
 # Python Automation
-Learning more about automation with python
+Automating mundane tasks with Python
 
 ## Sections
 section-13: web scraping  
