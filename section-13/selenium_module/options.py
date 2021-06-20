@@ -4,6 +4,7 @@ user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 
 normal = [
     f"user-agent={user_agent}",
+    "--headless", # enable to hide browser
     "--no-sandbox",
     "--disable-gpu",
     "--no-first-run",
