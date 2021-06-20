@@ -8,6 +8,8 @@ def get_space_product(product_number=1):
 
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, "html.parser")
+
+        # retrieve paths with element -> left click -> copy -> selector
         title_element = soup.select(f"#posters > div > div > div > div:nth-child({product_number}) > div.prodcut-list-content-wrapper > h2")[0]
         price_element = soup.select(f"#posters > div > div > div > div:nth-child({product_number}) > div.prodcut-list-content-wrapper > div.product-list-price")[0]
 
