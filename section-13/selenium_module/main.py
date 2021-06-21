@@ -18,3 +18,16 @@ for element in manga_elements:
     print(element.text)
 
 driver.quit()
+
+"""
+utility functions
+
+element.send_keys("hello world")
+element.submit()
+
+driver.back()
+driver.forward()
+
+driver.refresh()
+driver.quit()
+"""
