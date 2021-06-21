@@ -1,6 +1,6 @@
 import PyPDF2 as pdf
 
-pdf_handle = open("files/section-14/read_edit_pdf.pdf", "rb")
+pdf_handle = open("files/section-14/meeting_1.pdf", "rb")
 reader = pdf.PdfFileReader(pdf_handle)
 
 for i in range(reader.numPages):
