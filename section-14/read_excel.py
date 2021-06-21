@@ -1,7 +1,7 @@
 import openpyxl as xl
 # os.chdir("C:\path")
 
-workbook = xl.load_workbook("files/example.xlsx")
+workbook = xl.load_workbook("files/section-14/read_excel.xlsx")
 sheets = workbook.sheetnames
 sheet = workbook[sheets[0]] # get Sheet1
 
