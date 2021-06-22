@@ -1,4 +1,3 @@
-from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
 
 from options import default_options
